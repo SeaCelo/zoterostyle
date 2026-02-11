@@ -15,8 +15,13 @@ All notable changes to this citation style should be documented in this file.
 - Set repeated-author substitute to a 10-underscore line (`__________`), per UN convention.
 - Added `title-short` fallback in in-text citations when no author is present.
 - Improved no-author bibliography fallback for web-like records (`webpage`, `software`, `dataset`, `document`) to be title-led.
-- Updated web/database access formatting to `Available at ...` with conditional access-date output.
+- Updated web/database access formatting to `Available at ...` using CSL term rendering (`term="available at"`) with conditional access-date output.
 - Added page rendering to periodical references where pages are available.
+- Replaced hardcoded page affixes with label-based rendering and locale overrides so short page terms output as `pg.` and `pp.`.
+- Fixed no-author title-duplication edge cases in bibliography fallback logic:
+  - prevented duplicate title output for no-author `webpage`/`software`/`dataset`/`document` records
+  - prevented duplicate title output for no-author `report` records
+  - corrected spacing/punctuation flow for no-author `document` entries with issued month data
 - Updated periodical date rendering:
   - journal/magazine month/season in parentheses when issue is present
   - newspaper date handling by day and month

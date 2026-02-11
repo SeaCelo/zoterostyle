@@ -22,6 +22,10 @@
       <term name="no date" form="short">n.d.</term>
       <term name="accessed">accessed on</term>
       <term name="et-al">and others</term>
+      <term name="page" form="short">
+        <single>pg.</single>
+        <multiple>pp.</multiple>
+      </term>
     </terms>
   </locale>
   <macro name="editor">
@@ -131,7 +135,7 @@
       <if type="webpage software dataset document">
         <choose>
           <if variable="URL">
-            <text value="Available at" prefix=" "/>
+            <text term="available at" text-case="capitalize-first" prefix=" "/>
             <text variable="URL" font-style="normal" prefix=" "/>
             <choose>
               <if type="software dataset" match="any">
@@ -386,7 +390,11 @@
       <text macro="year-date" prefix="(" suffix=")."/>
       <choose>
         <if type="report">
-          <text macro="title" prefix=" "/>
+          <choose>
+            <if variable="author editor translator" match="any">
+              <text macro="title" prefix=" "/>
+            </if>
+          </choose>
           <group delimiter=", " prefix=". ">
             <text variable="collection-title" font-style="italic"/>
             <choose>
@@ -398,7 +406,10 @@
           <text macro="onusig"/>
           <group prefix=", " delimiter=", ">
             <text macro="publisher"/>
-            <text variable="page" prefix="pg. "/>
+            <group>
+              <label variable="page" form="short" plural="never" suffix=" "/>
+              <text variable="page"/>
+            </group>
           </group>
           <text macro="report-date" prefix=", "/>
           <choose>
@@ -447,7 +458,10 @@
               <text variable="publisher-place"/>
               <text variable="publisher"/>
             </group>
-            <text variable="page" prefix="pp. "/>
+            <group>
+              <label variable="page" form="short" plural="always" suffix=" "/>
+              <text variable="page"/>
+            </group>
           </group>
         </else-if>
         <else-if type="article-journal article-magazine article-newspaper" match="any">
@@ -500,8 +514,12 @@
           </group>
         </else-if>
         <else-if type="document">
-          <group delimiter=", ">
-            <text macro="title" prefix=" "/>
+          <group delimiter=", " prefix=" ">
+            <choose>
+              <if variable="author editor translator" match="any">
+                <text macro="title"/>
+              </if>
+            </choose>
             <text variable="publisher-place"/>
             <date variable="issued">
               <date-part name="day" suffix=" "/>
@@ -512,12 +530,16 @@
         <else>
           <group delimiter=", ">
             <choose>
-              <if variable="author editor translator publisher container-title" match="any">
+              <if variable="author editor translator" match="any">
                 <text macro="title" prefix=" "/>
               </if>
             </choose>
             <text macro="editor"/>
-            <text variable="container-title" font-style="italic"/>
+            <choose>
+              <if type="webpage software dataset document" match="none">
+                <text variable="container-title" font-style="italic"/>
+              </if>
+            </choose>
           </group>
         </else>
       </choose>
