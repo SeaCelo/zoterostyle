@@ -7,6 +7,9 @@ UN style guide: https://www.un.org/dgacm/en/content/editorial-manual
 Main style file:
 - `united-nations-desa.csl`
 
+Upstream CSL PR:
+- https://github.com/citation-style-language/styles/pull/6523
+
 Special use cases:
 - If a UN sales number is available for a source, enter it in `Loc. in Archive` in Zotero. The style will print it as `Sales No. ...` in the reference.
 
