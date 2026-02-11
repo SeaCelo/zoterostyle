@@ -1,0 +1,422 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <bib:Article rdf:about="#case_noauthor_2007">
+        <z:itemType>magazineArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Periodical><dc:title>World Bank News</dc:title></bib:Periodical>
+        </dcterms:isPartOf>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://go.worldbank.org/6AJB33NOF0</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2007-11-14</dc:date>
+        <dc:description>Citation Key: noauthorAfrica2007</dc:description>
+        <dc:title>Africa achieving healthy and steady growth rate</dc:title>
+        <z:citationKey>noauthorAfrica2007</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="#case_barr_2006">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>22</prism:volume>
+                <prism:number>1</prism:number>
+                <dc:title>Oxford Review of Economic Policy</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barr</foaf:surname>
+                        <foaf:givenName>Nicholas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Diamond</foaf:surname>
+                        <foaf:givenName>Peter</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <prism:startingPage>15</prism:startingPage>
+        <prism:endingPage>39</prism:endingPage>
+        <dc:date>Spring 2006</dc:date>
+        <dc:description>Citation Key: barrDiamond2006</dc:description>
+        <dc:title>The economics of pensions</dc:title>
+        <z:citationKey>barrDiamond2006</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="#case_bovenkerk_2005">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>4</prism:volume>
+                <prism:number>1 and 2</prism:number>
+                <dc:title>Forum on Crime and Society</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bovenkerk</foaf:surname>
+                        <foaf:givenName>Frank</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Abou Chakra</foaf:surname>
+                        <foaf:givenName>Bashir</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2005</dc:date>
+        <z:type>United Nations publication</z:type>
+        <dc:description>Citation Key: bovenkerkAbouChakra2005</dc:description>
+        <dc:title>Terrorism and organized crime</dc:title>
+        <z:citationKey>bovenkerkAbouChakra2005</z:citationKey>
+    </bib:Article>
+    <bib:Document rdf:about="#case_ec_website_2017">
+        <z:itemType>webpage</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>European Commission</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2017-11-09</dc:date>
+        <dc:description>Citation Key: europeanCommissionWebsite2017</dc:description>
+        <dc:title>Education and training in Europe: inequality remains a challenge</dc:title>
+        <z:citationKey>europeanCommissionWebsite2017</z:citationKey>
+    </bib:Document>
+    <bib:ConferenceProceedings rdf:about="#case_gurria_2007">
+        <z:itemType>presentation</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <z:presenters>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gurria</foaf:surname>
+                        <foaf:givenName>Angel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:presenters>
+        <dc:date>2007-05-14</dc:date>
+        <z:meetingName>OECD Forum 2007</z:meetingName>
+        <dc:description>Citation Key: gurriaStatement2007</dc:description>
+        <dc:title>Water: how to manage a vital resource</dc:title>
+        <z:citationKey>gurriaStatement2007</z:citationKey>
+    </bib:ConferenceProceedings>
+    <bib:Article rdf:about="#case_husseini_2007">
+        <z:itemType>newspaperArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Newspaper><dc:title>Jordan Times</dc:title></bib:Newspaper>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Husseini</foaf:surname>
+                        <foaf:givenName>Rana</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2007-05-09</dc:date>
+        <dc:description>Citation Key: husseini2007</dc:description>
+        <dc:title>Women leaders attempt to bridge East-West cultural divide</dc:title>
+        <z:citationKey>husseini2007</z:citationKey>
+    </bib:Article>
+    <bib:BookSection rdf:about="#case_rodrik_2005">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:title>Handbook of Economic Growth</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Amsterdam</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>North-Holland</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rodrik</foaf:surname>
+                        <foaf:givenName>Dani</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Aghion</foaf:surname>
+                        <foaf:givenName>Philippe</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Durlauf</foaf:surname>
+                        <foaf:givenName>Steven</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <prism:volume>1 A</prism:volume>
+        <dc:date>2005</dc:date>
+        <dc:description>Citation Key: rodrikGrowthStrategies2005</dc:description>
+        <dc:title>Growth strategies</dc:title>
+        <z:citationKey>rodrikGrowthStrategies2005</z:citationKey>
+    </bib:BookSection>
+    <bib:ConferenceProceedings rdf:about="#case_salagaev_2002">
+        <z:itemType>presentation</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Helsinki</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <z:presenters>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Salagaev</foaf:surname>
+                        <foaf:givenName>Alexander</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:presenters>
+        <dc:date>2002-10</dc:date>
+        <z:meetingName>Expert Group Meeting on Global Priorities for Youth</z:meetingName>
+        <dc:description>Citation Key: salagaev2002</dc:description>
+        <dc:title>Juvenile delinquency</dc:title>
+        <z:citationKey>salagaev2002</z:citationKey>
+    </bib:ConferenceProceedings>
+    <bib:Report rdf:about="#case_straub_2008">
+        <z:itemType>report</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Washington, D.C.</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>World Bank</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Straub</foaf:surname>
+                        <foaf:givenName>Stephane</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2008</dc:date>
+        <z:type>Policy Research Working Paper</z:type>
+        <prism:number>4460</prism:number>
+        <dc:description>Citation Key: straub2008</dc:description>
+        <dc:title>Infrastructure and growth in developing countries: recent advances and research challenges</dc:title>
+        <z:citationKey>straub2008</z:citationKey>
+    </bib:Report>
+    <bib:Book rdf:about="#case_un_sales_2002">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>United Nations</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2002</dc:date>
+        <dc:coverage>E.02.II.A.7</dc:coverage>
+        <dc:description>Citation Key: unSalesNo2002</dc:description>
+        <dc:title>Report of the International Conference on Financing for Development, Monterrey, Mexico, 18-22 March 2002</dc:title>
+        <z:citationKey>unSalesNo2002</z:citationKey>
+    </bib:Book>
+    <bib:Book rdf:about="#case_un_2005_a">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>United Nations</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2005</dc:date>
+        <dc:description>Citation Key: un2005a</dc:description>
+        <dc:title>Report on the World Social Situation 2005: The Inequality Predicament</dc:title>
+        <z:citationKey>un2005a</z:citationKey>
+    </bib:Book>
+    <bib:Book rdf:about="#case_un_2005_b">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>United Nations</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2005</dc:date>
+        <dc:description>Citation Key: un2005b</dc:description>
+        <dc:title>World Economic and Social Survey 2005: Financing for Development</dc:title>
+        <z:citationKey>un2005b</z:citationKey>
+    </bib:Book>
+    <bib:Report rdf:about="#case_un_corr_2012">
+        <z:itemType>report</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>United Nations</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2012</dc:date>
+        <prism:number>A/CONF.216/16 and A/CONF.216/16/Corr.1</prism:number>
+        <dc:description>Citation Key: unCorr2012</dc:description>
+        <dc:title>Report of the United Nations Conference on Sustainable Development, Rio de Janeiro, Brazil, 20-22 June 2012</dc:title>
+        <z:citationKey>unCorr2012</z:citationKey>
+    </bib:Report>
+    <bib:Document rdf:about="http://unstats.un.org/unsd/snaama/Introduction.asp">
+        <z:itemType>webpage</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>United Nations</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://unstats.un.org/unsd/snaama/Introduction.asp</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2017</dc:date>
+        <dcterms:dateSubmitted>2018-01-10</dcterms:dateSubmitted>
+        <z:type>online database</z:type>
+        <dc:description>Citation Key: unDatabase2017</dc:description>
+        <dc:title>National accounts main aggregates database</dc:title>
+        <z:citationKey>unDatabase2017</z:citationKey>
+    </bib:Document>
+    <bib:Report rdf:about="#case_un_symbol_2018">
+        <z:itemType>report</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>United Nations</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2018</dc:date>
+        <prism:number>A/CONF.231/7</prism:number>
+        <dc:description>Citation Key: unSymbol2018</dc:description>
+        <dc:title>Report of the Intergovernmental Conference to Adopt the Global Compact for Safe, Orderly and Regular Migration, Marrakech, Morocco, 10 and 11 December 2018</dc:title>
+        <z:citationKey>unSymbol2018</z:citationKey>
+    </bib:Report>
+    <bib:Report rdf:about="#case_un_sc_2022">
+        <z:itemType>report</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>United Nations, Security Council</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2022-12-12</dc:date>
+        <prism:number>S/2022/999</prism:number>
+        <dc:description>Citation Key: unSecurityCouncil2022</dc:description>
+        <dc:title>Final report of the Group of Experts on the Democratic Republic of the Congo</dc:title>
+        <z:citationKey>unSecurityCouncil2022</z:citationKey>
+    </bib:Report>
+    <bib:Book rdf:about="#case_unctad_2005">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>United Nations Conference on Trade and Development</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2005</dc:date>
+        <z:type>United Nations publication</z:type>
+        <dc:description>Citation Key: unctad2005</dc:description>
+        <dc:title>Trade and Development Report 2005: New Features of Global Interdependence</dc:title>
+        <z:citationKey>unctad2005</z:citationKey>
+    </bib:Book>
+    <bib:Book rdf:about="#case_unesco_2000">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>United Nations Educational, Scientific and Cultural Organization</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <dc:date>2000</dc:date>
+        <dc:description>Citation Key: unesco2000</dc:description>
+        <dc:title>Final Report of the World Education Forum, Dakar, Senegal, 26-28 April 2000</dc:title>
+        <z:citationKey>unesco2000</z:citationKey>
+    </bib:Book>
+</rdf:RDF>
