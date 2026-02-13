@@ -8,54 +8,1740 @@
  xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
  xmlns:link="http://purl.org/rss/1.0/modules/link/"
  xmlns:vcard="http://nwalsh.com/rdf/vCard#">
-    <bib:Article rdf:about="#case_noauthor_2007">
+    <bib:Report rdf:about="#item_11617">
+        <z:itemType>report</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+               <dcterms:alternative>Frontier Issues</dcterms:alternative>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>United Nations</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>LaFleur</foaf:surname>
+                        <foaf:givenName>Marcelo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Iversen</foaf:surname>
+                        <foaf:givenName>Kenneth</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jensen</foaf:surname>
+                        <foaf:givenName>Lars</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:rights>All rights reserved</dc:rights>
+        <dc:date>February 2018</dc:date>
+        <dcterms:dateSubmitted>2017-11-30 15:42:34</dcterms:dateSubmitted>
+        <prism:number>2</prism:number>
+        <dc:title>Globalization of knowledge and technology</dc:title>
+    </bib:Report>
+    <bib:Document rdf:about="http://apps.who.int/gho/data/node.sdg.3-2-viz?lang=en">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+            <z:Website>
+                <dc:title>World Health Statistics data visualizations dashboard</dc:title>
+            </z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_11619"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://apps.who.int/gho/data/node.sdg.3-2-viz?lang=en</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2018-02-02 23:23:30</dc:date>
+        <dcterms:dateSubmitted>2018-02-02 23:23:30</dcterms:dateSubmitted>
+        <dc:title>World Health Statistics data visualizations dashboard: Under-five mortality rate</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_11619">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://apps.who.int/gho/data/node.sdg.3-2-viz?lang=en</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-02 23:23:32</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://hbr.org/2017/03/augmented-reality-is-already-improving-worker-performance">
         <z:itemType>magazineArticle</z:itemType>
         <dcterms:isPartOf>
-           <bib:Periodical><dc:title>World Bank News</dc:title></bib:Periodical>
+            <bib:Periodical>
+               <dc:title>Harvard Business Review</dc:title>
+            </bib:Periodical>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Abraham</foaf:surname>
+                        <foaf:givenName>Magid</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Annunziata</foaf:surname>
+                        <foaf:givenName>Marco</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_11621"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://hbr.org/2017/03/augmented-reality-is-already-improving-worker-performance</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2017-03-13T14:40:08Z</dc:date>
+        <dcterms:dateSubmitted>2018-02-06 19:54:04</dcterms:dateSubmitted>
+        <dcterms:abstract>One example shows a productivity boost of over 30% — on a worker’s first use, and without prior training.</dcterms:abstract>
+        <dc:title>Augmented Reality Is Already Improving Worker Performance</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_11621">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://hbr.org/2017/03/augmented-reality-is-already-improving-worker-performance</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-06 19:54:08</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://atlas.media.mit.edu/en/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
         </dcterms:isPartOf>
         <dc:identifier>
             <dcterms:URI>
-                <rdf:value>http://go.worldbank.org/6AJB33NOF0</rdf:value>
+               <rdf:value>https://atlas.media.mit.edu/en/</rdf:value>
             </dcterms:URI>
         </dc:identifier>
-        <dc:date>2007-11-14</dc:date>
-        <dc:description>Citation Key: noauthorAfrica2007</dc:description>
-        <dc:title>Africa achieving healthy and steady growth rate</dc:title>
-        <z:citationKey>noauthorAfrica2007</z:citationKey>
+        <dc:date>2018-03-13 14:56:47</dc:date>
+        <dcterms:dateSubmitted>2018-03-13 14:56:47</dcterms:dateSubmitted>
+        <dc:title>The Observatory of Economic Complexity</dc:title>
+    </bib:Document>
+    <rdf:Description rdf:about="http://microdata.worldbank.org/index.php/catalog/2545/related_materials">
+        <z:itemType>dataset</z:itemType>
+        <link:link rdf:resource="#item_11624"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://microdata.worldbank.org/index.php/catalog/2545/related_materials</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2018-05-08 21:49:10</dc:date>
+        <dcterms:dateSubmitted>2018-05-08 21:49:10</dcterms:dateSubmitted>
+        <dc:title>World - Exporter Dynamics Database 1997-2014</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_11624">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://microdata.worldbank.org/index.php/catalog/2545/related_materials</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-05-08 21:49:14</dcterms:dateSubmitted>
+        <dc:title>World - Exporter Dynamics Database 1997-2014</dc:title>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.mdpi.com/1424-8220/22/3/1067">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1424-8220"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hsu</foaf:surname>
+                        <foaf:givenName>D. Frank</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>LaFleur</foaf:surname>
+                        <foaf:givenName>Marcelo T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Orazbek</foaf:surname>
+                        <foaf:givenName>Ilyas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_11626"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.mdpi.com/1424-8220/22/3/1067</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>1067</bib:pages>
+        <dc:date>2022-01-29</dc:date>
+        <dcterms:dateSubmitted>2022-09-01 15:27:03</dcterms:dateSubmitted>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Improving SDG Classification Precision Using Combinatorial Fusion</dc:title>
     </bib:Article>
-    <bib:Article rdf:about="#case_barr_2006">
+    <bib:Journal rdf:about="urn:issn:1424-8220">
+        <prism:volume>22</prism:volume>
+        <prism:number>3</prism:number>
+        <dc:title>Sensors</dc:title>
+        <dc:identifier>ISSN 1424-8220</dc:identifier>
+        <dcterms:alternative>Sensors</dcterms:alternative>
+        <dc:identifier>DOI 10.3390/s22031067</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_11626">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.mdpi.com/1424-8220/22/3/1067/pdf?version=1644292905</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-01 15:27:05</dcterms:dateSubmitted>
+        <dc:title>Full Text</dc:title>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Report rdf:about="#item_11627">
+        <z:itemType>report</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>United Nations</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>1991</dc:date>
+        <prism:number>A/CONF.147/18, part one</prism:number>
+        <dc:title>Report of the Second United Nations Conference on the Least Developed Countries, Paris, 3-14 September 1990</dc:title>
+    </bib:Report>
+    <bib:Book rdf:about="#item_11628">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>United Nations</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2002</dc:date>
+        <dc:coverage>E.02.II.A.7</dc:coverage>
+        <dc:title>Report of the International Conference on Financing for Development, Monterrey, Mexico, 18-22 March 2002</dc:title>
+    </bib:Book>
+    <bib:Book rdf:about="urn:isbn:978-92-1-045201-4">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>United Nations</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_11630"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.un-ilibrary.org/content/books/9789210452014</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:identifier>ISBN 978-92-1-045201-4</dc:identifier>
+        <dc:date>1999/09/09</dc:date>
+        <dc:coverage>E.99.II.C.1</dc:coverage>
+        <dcterms:dateSubmitted>2023-05-02 16:13:31</dcterms:dateSubmitted>
+        <z:libraryCatalog>www.un-ilibrary.org</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>World Economic and Social Survey 1999: Trends and Policies in the World Economy</dc:title>
+        <z:shortTitle>World Economic and Social Survey 1999</z:shortTitle>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_11630">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.un-ilibrary.org/content/books/9789210452014</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-05-02 16:13:38</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="#item_11631">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Washington, D.C.</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>International Monetary Fund</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>December 17, 2002</dc:date>
+        <dc:title>Global Financial Stability Report, December 2002: Market Developments and Issues</dc:title>
+    </bib:Book>
+    <bib:Article rdf:about="https://www.nber.org/papers/w10497">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
             <bib:Journal>
-                <prism:volume>22</prism:volume>
-                <prism:number>1</prism:number>
-                <dc:title>Oxford Review of Economic Policy</dc:title>
+                <prism:number>10497</prism:number>
+                <dc:title>NBER Working Papers</dc:title>
+                <dc:identifier>DOI 10.3386/w10497</dc:identifier>
             </bib:Journal>
         </dcterms:isPartOf>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
                     <foaf:Person>
-                        <foaf:surname>Barr</foaf:surname>
-                        <foaf:givenName>Nicholas</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Diamond</foaf:surname>
-                        <foaf:givenName>Peter</foaf:givenName>
+                        <foaf:surname>Eichengreen</foaf:surname>
+                        <foaf:givenName>Barry</foaf:givenName>
                     </foaf:Person>
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
-        <prism:startingPage>15</prism:startingPage>
-        <prism:endingPage>39</prism:endingPage>
-        <dc:date>Spring 2006</dc:date>
-        <dc:description>Citation Key: barrDiamond2006</dc:description>
-        <dc:title>The economics of pensions</dc:title>
-        <z:citationKey>barrDiamond2006</z:citationKey>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.nber.org/papers/w10497</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2004-05</dc:date>
+        <dc:description>DOI: 10.3386/w10497</dc:description>
+        <dcterms:dateSubmitted>2023-05-02 16:10:57</dcterms:dateSubmitted>
+        <z:libraryCatalog>National Bureau of Economic Research</z:libraryCatalog>
+        <dc:title>Global Imbalances and the Lessons of Bretton Woods</dc:title>
     </bib:Article>
-    <bib:Article rdf:about="#case_bovenkerk_2005">
+    <bib:Manuscript rdf:about="#item_11633">
+        <z:itemType>manuscript</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Massachusetts</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rodrik</foaf:surname>
+                        <foaf:givenName>Dani</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Getting institutions right</dc:title>
+    </bib:Manuscript>
+    <bib:BookSection rdf:about="#item_11634">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:title>Initiative for Policy Dialogue: Capital Market Liberalization Companion Volume</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Oxford University Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dodd</foaf:surname>
+                        <foaf:givenName>Randall</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>The consequences of liberalizing derivative markets</dc:title>
+    </bib:BookSection>
+    <bib:Article rdf:about="#item_11635">
+        <z:itemType>newspaperArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Newspaper><dc:title>Hindustan Times</dc:title></bib:Newspaper>
+        </dcterms:isPartOf>
+        <dc:date>November 2003</dc:date>
+        <dc:title>Developing muscles</dc:title>
+    </bib:Article>
+    <bib:Article rdf:about="#item_11636">
+        <z:itemType>newspaperArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Part>
+                <dc:title>Comment and analysis</dc:title>
+                <dcterms:isPartOf>
+                    <bib:Newspaper>
+                       <dc:title>Financial Times</dc:title>
+                    </bib:Newspaper>
+                </dcterms:isPartOf>
+            </bib:Part>
+        </dcterms:isPartOf>
+        <dc:date>Feb 16 2005</dc:date>
+        <dc:title>Shock of the new: a changed financial landscape may be eroding resistance to systemic risk</dc:title>
+    </bib:Article>
+    <bib:Article rdf:about="#item_11637">
+        <z:itemType>newspaperArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Newspaper><dc:title>The Indian Express</dc:title></bib:Newspaper>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shiller</foaf:surname>
+                        <foaf:givenName>Robert</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>March 10 2005</dc:date>
+        <dc:title>In favor of growth-linked bonds</dc:title>
+    </bib:Article>
+    <bib:Article rdf:about="#item_11638">
+        <z:itemType>magazineArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Periodical><dc:title>Quarterly Review</dc:title></bib:Periodical>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bank for International Settlements</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:pages>45-54</bib:pages>
+        <dc:date>September 2003</dc:date>
+    </bib:Article>
+    <bib:Manuscript rdf:about="#item_11639">
+        <z:itemType>manuscript</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Council of Economic Advisers</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>22 Nov 2004</dc:date>
+        <dc:title>Growth-indexed bonds: a primer</dc:title>
+    </bib:Manuscript>
+    <bib:Report rdf:about="http://www.new-rules.org/docs/polak.pdf">
+        <z:itemType>report</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Polak</foaf:surname>
+                        <foaf:givenName>Jacques J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Clark</foaf:surname>
+                        <foaf:givenName>Peter B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.new-rules.org/docs/polak.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2005</dc:date>
+        <dcterms:dateSubmitted>2005-06-23</dcterms:dateSubmitted>
+        <dc:title>A new perspective on SDR allocations, new rules for global finance</dc:title>
+    </bib:Report>
+    <bib:ConferenceProceedings rdf:about="https://www.bis.org/speeches/sp000921.htm">
+        <z:itemType>presentation</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Basel</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <z:presenters>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Crockett</foaf:surname>
+                        <foaf:givenName>Andrew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:presenters>
+        <link:link rdf:resource="#item_11642"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.bis.org/speeches/sp000921.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>20-21 September 2000</dc:date>
+        <dc:description>Presenters: _:n67</dc:description>
+        <dcterms:dateSubmitted>2023-05-02 15:57:02</dcterms:dateSubmitted>
+        <z:meetingName>Eleventh International Conference of Banking Supervisors</z:meetingName>
+        <z:language>en</z:language>
+        <dc:title>Marrying the micro- and macro-prudential dimensions of financial stability</dc:title>
+    </bib:ConferenceProceedings>
+    <z:Attachment rdf:about="#item_11642">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.bis.org/speeches/sp000921.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-05-02 15:57:09</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://ideas.repec.org//p/unu/wpaper/dp2003-71.html">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:number>DP2003-71</prism:number>
+                <dc:title>WIDER Working Paper Series</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McGillivray</foaf:surname>
+                        <foaf:givenName>Mark</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_11644"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Democracy</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Economic assistance and foreign aid</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Economic growth</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Measurement (Poverty)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Poverty</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ideas.repec.org//p/unu/wpaper/dp2003-71.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2003</dc:date>
+        <dcterms:dateSubmitted>2023-05-02 15:56:22</dcterms:dateSubmitted>
+        <z:libraryCatalog>ideas.repec.org</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Aid Effectiveness and Selectivity: Integrating Multiple Objectives into Aid Allocations</dc:title>
+        <z:shortTitle>Aid Effectiveness and Selectivity</z:shortTitle>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_11644">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ideas.repec.org/p/unu/wpaper/dp2003-71.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-05-02 15:56:28</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Report rdf:about="https://econpapers.repec.org/paper/zbwwtodps/8.htm">
+        <z:itemType>report</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>World Trade Organization (WTO), Economic Research and Statistics Division</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Crawford</foaf:surname>
+                        <foaf:givenName>Jo-Ann</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fiorentino</foaf:surname>
+                        <foaf:givenName>Roberto V.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_11646"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>customs union (CU)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>economic integration agreement (EIA)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>free trade agreement (FTA)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>regional trade agreement (RTAs)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://econpapers.repec.org/paper/zbwwtodps/8.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2005</dc:date>
+        <dcterms:dateSubmitted>2023-05-02 15:55:55</dcterms:dateSubmitted>
+        <z:type>WTO Discussion Paper</z:type>
+        <z:libraryCatalog>RePEc - Econpapers</z:libraryCatalog>
+        <prism:number>8</prism:number>
+        <dc:title>The changing landscape of regional trade agreements</dc:title>
+    </bib:Report>
+    <z:Attachment rdf:about="#item_11646">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://econpapers.repec.org/paper/zbwwtodps/8.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-05-02 15:55:59</dcterms:dateSubmitted>
+        <dc:title>RePEc Snapshot</dc:title>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Report rdf:about="https://econpapers.repec.org/paper/zbwwtodps/7.htm">
+        <z:itemType>report</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>World Trade Organization (WTO), Economic Research and Statistics Division</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Acharya</foaf:surname>
+                        <foaf:givenName>Rohini</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Daly</foaf:surname>
+                        <foaf:givenName>Michael</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_11648"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>economic development</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>tariffs</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>trade negotiations</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://econpapers.repec.org/paper/zbwwtodps/7.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2004</dc:date>
+        <dcterms:dateSubmitted>2023-05-02 15:55:32</dcterms:dateSubmitted>
+        <z:type>WTO Discussion Paper</z:type>
+        <z:libraryCatalog>RePEc - Econpapers</z:libraryCatalog>
+        <prism:number>7</prism:number>
+        <dc:title>Selected issues concerning the multilateral trading system</dc:title>
+    </bib:Report>
+    <z:Attachment rdf:about="#item_11648">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://econpapers.repec.org/paper/zbwwtodps/7.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-05-02 15:55:37</dcterms:dateSubmitted>
+        <dc:title>RePEc Snapshot</dc:title>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_11649">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>19</prism:volume>
+                <prism:number>1</prism:number>
+                <dc:title>World Bank Research Observer</dc:title>
+                <dcterms:alternative>World Bank Research Observer</dcterms:alternative>
+                <dc:identifier>DOI 10.1093/wbro/lkh014</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kikeri</foaf:surname>
+                        <foaf:givenName>Sunita</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_11650"/>
+        <bib:pages>87-118</bib:pages>
+        <dc:date>Spring 2015</dc:date>
+        <z:libraryCatalog>ResearchGate</z:libraryCatalog>
+        <dc:title>An Assessment of Privatization</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_11650">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.researchgate.net/publication/5217945_An_Assessment_of_Privatization</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-05-02 14:29:08</dcterms:dateSubmitted>
+        <dc:title>ResearchGate Link</dc:title>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S0304387898001047">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0304-3878"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>de Aghion</foaf:surname>
+                        <foaf:givenName>Beatriz Armendáriz</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_11652"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Co-financing</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Co-ownership</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Expertise</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Industrial finance</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Targeting</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0304387898001047</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>83-100</bib:pages>
+        <dc:date>1999-02-01</dc:date>
+        <dcterms:dateSubmitted>2023-05-02 14:25:56</dcterms:dateSubmitted>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Development banking</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0304-3878">
+        <prism:volume>58</prism:volume>
+        <prism:number>1</prism:number>
+        <dc:title>Journal of Development Economics</dc:title>
+        <dc:identifier>ISSN 0304-3878</dc:identifier>
+        <dcterms:alternative>Journal of Development Economics</dcterms:alternative>
+        <dc:identifier>DOI 10.1016/S0304-3878(98)00104-7</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_11652">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/abs/pii/S0304387898001047</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-05-02 14:26:01</dcterms:dateSubmitted>
+        <dc:title>ScienceDirect Snapshot</dc:title>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="urn:isbn:978-0-8133-1766-3">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Boulder</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Westview Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lee</foaf:surname>
+                        <foaf:givenName>Boon-chye</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <prism:edition>1st edition</prism:edition>
+        <dc:identifier>ISBN 978-0-8133-1766-3</dc:identifier>
+        <dc:date>1993-05-26</dc:date>
+        <z:libraryCatalog>Amazon</z:libraryCatalog>
+        <z:language>English</z:language>
+        <dc:title>The Economics of International Debt Renegotiation: The Role Of Bargaining And Information</dc:title>
+        <z:shortTitle>The Economics Of International Debt Renegotiation</z:shortTitle>
+        <z:numPages>141</z:numPages>
+    </bib:Book>
+    <bib:Book rdf:about="urn:isbn:978-0-7108-0174-6">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Wheatsheaf Books</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Minsky</foaf:surname>
+                        <foaf:givenName>Hyman P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>ISBN 978-0-7108-0174-6</dc:identifier>
+        <dc:date>1982</dc:date>
+        <z:libraryCatalog>Google Books</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Inflation, Recession and Economic Policy</dc:title>
+        <z:numPages>336</z:numPages>
+    </bib:Book>
+    <bib:BookSection rdf:about="urn:isbn:1-4039-1631-4">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:identifier>ISBN 1-4039-1631-4</dc:identifier>
+                <dc:title>From capital surges to drought: seeking stability for emerging economies</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Palgrave Macmillan</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Reisen</foaf:surname>
+                        <foaf:givenName>Helmut</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ffrench-Davis</foaf:surname>
+                        <foaf:givenName>Ricardo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Griffith-Jones</foaf:surname>
+                        <foaf:givenName>Stephany</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://digitallibrary.un.org/record/537514</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2003</dc:date>
+        <dcterms:dateSubmitted>2023-05-02 14:18:15</dcterms:dateSubmitted>
+        <z:libraryCatalog>digitallibrary.un.org</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Ratings since the Asian crisis</dc:title>
+    </bib:BookSection>
+    <bib:BookSection rdf:about="urn:isbn:956-278-146-1">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:identifier>ISBN 956-278-146-1</dc:identifier>
+                <dc:title>Crisis financieras en países 'exitosos'</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Santiago</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>McGraw Hill Interamericana</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Agosin</foaf:surname>
+                        <foaf:givenName>Manuel R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ffrench-Davis</foaf:surname>
+                        <foaf:givenName>Ricardo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://repositorio.cepal.org/handle/11362/1669</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2001</dc:date>
+        <dcterms:dateSubmitted>2023-05-02 14:14:00</dcterms:dateSubmitted>
+        <z:libraryCatalog>repositorio.cepal.org</z:libraryCatalog>
+        <z:language>es</z:language>
+        <dc:title>Corea y Taiwán ante la crisis financiera asiática</dc:title>
+    </bib:BookSection>
+    <bib:Article rdf:about="https://doi.org/10.1080/23288604.2019.1663118">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2328-8604"/>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Taylor &amp; Francis</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yamey</foaf:surname>
+                        <foaf:givenName>Gavin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jamison</foaf:surname>
+                        <foaf:givenName>Dean</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hanssen</foaf:surname>
+                        <foaf:givenName>Odd</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Soucat</foaf:surname>
+                        <foaf:givenName>Agnès</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>common goods for health</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>global public goods for health</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>research and development</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://doi.org/10.1080/23288604.2019.1663118</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>334-349</bib:pages>
+        <dc:date>2019-10-02</dc:date>
+        <dc:description>_eprint: https://doi.org/10.1080/23288604.2019.1663118</dc:description>
+        <dcterms:dateSubmitted>2023-05-02 14:12:14</dcterms:dateSubmitted>
+        <z:libraryCatalog>Taylor and Francis+NEJM</z:libraryCatalog>
+        <dc:title>Financing Global Common Goods for Health: When the World is a Country</dc:title>
+        <z:shortTitle>Financing Global Common Goods for Health</z:shortTitle>
+        <z:PMID>31860402</z:PMID>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2328-8604">
+        <prism:volume>5</prism:volume>
+        <prism:number>4</prism:number>
+        <dc:title>Health Systems &amp; Reform</dc:title>
+        <dc:identifier>ISSN 2328-8604</dc:identifier>
+        <dc:identifier>DOI 10.1080/23288604.2019.1663118</dc:identifier>
+    </bib:Journal>
+    <bib:Book rdf:about="urn:isbn:978-0-19-954449-3">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Oxford University Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gai</foaf:surname>
+                        <foaf:givenName>Prasanna</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://academic.oup.com/book/32692</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:identifier>ISBN 978-0-19-954449-3</dc:identifier>
+        <dc:date>2013-03-28</dc:date>
+        <dc:description>DOI: 10.1093/acprof:oso/9780199544493.001.0001
+DOI: 10.1093/acprof:oso/9780199544493.001.0001</dc:description>
+        <dcterms:dateSubmitted>2023-01-17 04:22:34</dcterms:dateSubmitted>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:title>Systemic Risk: The Dynamics of Modern Financial Systems</dc:title>
+        <z:shortTitle>Systemic Risk</z:shortTitle>
+    </bib:Book>
+    <bib:Article rdf:about="#item_11659">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>21</prism:volume>
+                <prism:number>1</prism:number>
+                <dc:title>World Bank Research Observer</dc:title>
+                <dcterms:alternative>World Bank Research Observer</dcterms:alternative>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kikeri</foaf:surname>
+                        <foaf:givenName>Sunita</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:pages>87-118</bib:pages>
+        <dc:date>Spring 2017</dc:date>
+        <dc:description>Citation Key: kikeriSuperAssessmentPrivatization2017</dc:description>
+        <z:libraryCatalog>ResearchGate</z:libraryCatalog>
+        <dc:title>A super Assessment of Privatization</dc:title>
+        <z:citationKey>kikeriSuperAssessmentPrivatization2017</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="#item_11660">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>20</prism:volume>
+                <prism:number>1</prism:number>
+                <dc:title>World Bank Research Observer</dc:title>
+                <dcterms:alternative>World Bank Research Observer</dcterms:alternative>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kikeri</foaf:surname>
+                        <foaf:givenName>Sunita</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:pages>87-118</bib:pages>
+        <dc:date>Spring 2016</dc:date>
+        <dc:description>Citation Key: kikeriNewAssessmentPrivatization2016</dc:description>
+        <z:libraryCatalog>ResearchGate</z:libraryCatalog>
+        <dc:title>A New Assessment of Privatization</dc:title>
+        <z:citationKey>kikeriNewAssessmentPrivatization2016</z:citationKey>
+    </bib:Article>
+    <rdf:Description rdf:about="https://example.org/un-data-portal-methodology">
+        <z:itemType>document</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://example.org/un-data-portal-methodology</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2024-10</dc:date>
+        <dc:description>Citation Key: noauthorShorttitleFixture2024</dc:description>
+        <dcterms:dateSubmitted>2026-02-10</dcterms:dateSubmitted>
+        <dc:title>United nations data portal methodology note</dc:title>
+        <z:shortTitle>UN data portal methodology</z:shortTitle>
+        <z:citationKey>noauthorShorttitleFixture2024</z:citationKey>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://example.org/undp-gdi-dashboard">
+        <z:itemType>document</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>United Nations Development Programme</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://example.org/undp-gdi-dashboard</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2023-11</dc:date>
+        <dc:description>Citation Key: webpageIssuedVsAccessedFixture2023</dc:description>
+        <dcterms:dateSubmitted>2026-02-10</dcterms:dateSubmitted>
+        <dc:title>Global development indicators dashboard</dc:title>
+        <z:citationKey>webpageIssuedVsAccessedFixture2023</z:citationKey>
+    </rdf:Description>
+    <bib:Document rdf:about="#item_11663">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>World Health Organization</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://apps.who.int/gho/data/node.sdg.3-2-viz?lang=en</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2018-02-02</dc:date>
+        <dc:description>Citation Key: webUrlOnWHO2018</dc:description>
+        <dcterms:dateSubmitted>2018-02-02</dcterms:dateSubmitted>
+        <dc:title>World Health Statistics data visualizations dashboard: Under-five mortality rate</dc:title>
+        <z:citationKey>webUrlOnWHO2018</z:citationKey>
+    </bib:Document>
+    <rdf:Description rdf:about="#item_11664">
+        <z:itemType>document</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>World Health Organization</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2018-02-02</dc:date>
+        <dc:description>Citation Key: webUrlOffWHO2018</dc:description>
+        <dcterms:dateSubmitted>2018-02-02</dcterms:dateSubmitted>
+        <dc:title>World Health Statistics data visualizations dashboard: Under-five mortality rate</dc:title>
+        <z:citationKey>webUrlOffWHO2018</z:citationKey>
+    </rdf:Description>
+    <bib:Book rdf:about="#item_11665">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Geneva</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>World Health Organization</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>World Health Organization</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2021</dc:date>
+        <dc:description>Citation Key: orgSameBookWHO2021</dc:description>
+        <dc:title>Tuberculosis global methods report</dc:title>
+        <z:citationKey>orgSameBookWHO2021</z:citationKey>
+    </bib:Book>
+    <bib:Book rdf:about="#item_11666">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Copenhagen</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>WHO Regional Office for Europe</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>World Health Organization</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2021</dc:date>
+        <dc:description>Citation Key: orgDifferentBookWHO2021</dc:description>
+        <dc:title>Regional health implementation report</dc:title>
+        <z:citationKey>orgDifferentBookWHO2021</z:citationKey>
+    </bib:Book>
+    <bib:Document rdf:about="http://unstats.un.org/unsd/snaama/Introduction.asp">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>United Nations</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://unstats.un.org/unsd/snaama/Introduction.asp</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2017-11</dc:date>
+        <dc:description>Citation Key: dbGenreWebUN2017</dc:description>
+        <dcterms:dateSubmitted>2018-01-10</dcterms:dateSubmitted>
+        <z:type>online database</z:type>
+        <dc:title>National accounts main aggregates database</dc:title>
+        <z:citationKey>dbGenreWebUN2017</z:citationKey>
+    </bib:Document>
+    <bib:Data rdf:about="https://example.org/sdg-data-explorer">
+        <z:itemType>computerProgram</z:itemType>
+        <z:programmers>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>United Nations Development Programme</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:programmers>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://example.org/sdg-data-explorer</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2023-06</dc:date>
+        <dc:description>Programmers: _:n181
+Citation Key: softwareIssuedUNDP2023</dc:description>
+        <dcterms:dateSubmitted>2026-02-10</dcterms:dateSubmitted>
+        <dc:title>SDG data explorer</dc:title>
+        <z:citationKey>softwareIssuedUNDP2023</z:citationKey>
+    </bib:Data>
+    <bib:Data rdf:about="https://example.org/sdg-data-explorer-beta">
+        <z:itemType>computerProgram</z:itemType>
+        <z:programmers>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>United Nations Development Programme</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:programmers>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://example.org/sdg-data-explorer-beta</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2026-02-10</dc:date>
+        <dc:description>Programmers: _:n184
+Citation Key: softwareNoDateUNDP2026</dc:description>
+        <dcterms:dateSubmitted>2026-02-10</dcterms:dateSubmitted>
+        <dc:title>SDG data explorer beta</dc:title>
+        <z:citationKey>softwareNoDateUNDP2026</z:citationKey>
+    </bib:Data>
+    <bib:Article rdf:about="#item_11670">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>58</prism:volume>
+                <prism:number>1</prism:number>
+                <dc:title>Journal of Development Economics</dc:title>
+                <dc:identifier>ISSN 0304-3878</dc:identifier>
+                <dcterms:alternative>Journal of Development Economics</dcterms:alternative>
+                <dc:identifier>DOI 10.1016/S0304-3878(98)00104-7</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>de Aghion</foaf:surname>
+                        <foaf:givenName>Beatriz Armendáriz</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Co-financing</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Co-ownership</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Expertise</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Industrial finance</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Targeting</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0304387898001047</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>83-100</bib:pages>
+        <dc:date>1999-02-01</dc:date>
+        <dcterms:dateSubmitted>2023-05-02 14:25:56</dcterms:dateSubmitted>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Development thinking</dc:title>
+    </bib:Article>
+    <bib:Book rdf:about="#item_11671">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Washington, D.C.</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>International Monetary Fund</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>December 17, 2002</dc:date>
+        <dc:title>International financial statistics</dc:title>
+    </bib:Book>
+    <bib:Book rdf:about="#item_11672">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>United Nations Publications</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Alvarez</foaf:surname>
+                        <foaf:givenName>Maria</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:date>2012</dc:date>
+        <dc:description>Citation Key: editorOnlyCompendium2012</dc:description>
+        <dc:title>Compendium on inclusive growth policy</dc:title>
+        <z:citationKey>editorOnlyCompendium2012</z:citationKey>
+    </bib:Book>
+    <rdf:Description rdf:about="#item_11673">
+        <z:itemType>document</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>London</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hassan</foaf:surname>
+                        <foaf:givenName>Osman Ahmed</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2003-01-04</dc:date>
+        <dc:description>Citation Key: interviewAccessibleHassan2003
+Type: Interview</dc:description>
+        <dc:title>Interview by panel of experts on somalia</dc:title>
+        <z:citationKey>interviewAccessibleHassan2003</z:citationKey>
+    </rdf:Description>
+    <rdf:Description rdf:about="#item_11674">
+        <z:itemType>document</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Smith</foaf:surname>
+                        <foaf:givenName>Jane</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2024-05-14</dc:date>
+        <dc:description>Citation Key: personalCommunicationSmith2024
+Type: Personal communication</dc:description>
+        <dc:title>Personal communication with the author</dc:title>
+        <z:citationKey>personalCommunicationSmith2024</z:citationKey>
+    </rdf:Description>
+    <bib:Report rdf:about="#item_11675">
+        <z:itemType>report</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>United Nations</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2022</dc:date>
+        <dc:description>Citation Key: unMastheadSymbolA782022</dc:description>
+        <prism:number>A/78/123</prism:number>
+        <dc:title>Report of the secretary-general on progress in social development</dc:title>
+        <z:citationKey>unMastheadSymbolA782022</z:citationKey>
+    </bib:Report>
+    <rdf:Description rdf:about="#item_11676">
+        <z:itemType>document</z:itemType>
+        <dc:date>1998</dc:date>
+        <dc:description>Citation Key: legalCaseSpainCanada1998
+Pages: 432
+Type: Legal case</dc:description>
+        <dc:title>Fisheries jurisdiction (spain v. canada)</dc:title>
+        <z:citationKey>legalCaseSpainCanada1998</z:citationKey>
+    </rdf:Description>
+    <rdf:Description rdf:about="#item_11677">
+        <z:itemType>document</z:itemType>
+        <dc:date>1969</dc:date>
+        <dc:description>Citation Key: treatyVienna1969
+Pages: 331
+Series: United nations treaty series
+Volume: 1155</dc:description>
+        <dc:title>Vienna convention on the law of treaties</dc:title>
+        <z:citationKey>treatyVienna1969</z:citationKey>
+    </rdf:Description>
+    <bib:Book rdf:about="#item_11678">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>United Nations</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2024</dc:date>
+        <dc:coverage>E.24.II.C.1</dc:coverage>
+        <dc:description>Citation Key: unPubSalesNoBookFixture2024</dc:description>
+        <dc:title>World Social Report 2024: Rebalancing inclusion</dc:title>
+        <z:citationKey>unPubSalesNoBookFixture2024</z:citationKey>
+    </bib:Book>
+    <bib:Report rdf:about="#item_11679">
+        <z:itemType>report</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>United Nations</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2018</dc:date>
+        <dc:description>Citation Key: unPubSymbolConferenceFixture2018</dc:description>
+        <prism:number>A/CONF.231/7</prism:number>
+        <dc:title>Report of the Intergovernmental Conference to Adopt the Global Compact for Safe, Orderly and Regular Migration, Marrakech, Morocco, 10 and 11 December 2018</dc:title>
+        <z:citationKey>unPubSymbolConferenceFixture2018</z:citationKey>
+    </bib:Report>
+    <bib:Report rdf:about="#item_11680">
+        <z:itemType>report</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>United Nations, Security Council</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2022-12-12</dc:date>
+        <dc:description>Citation Key: unMastheadBodyFixture2022</dc:description>
+        <prism:number>S/2022/999</prism:number>
+        <dc:title>Final report of the Group of Experts on the Democratic Republic of the Congo</dc:title>
+        <z:citationKey>unMastheadBodyFixture2022</z:citationKey>
+    </bib:Report>
+    <bib:Book rdf:about="#item_11681">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>United Nations, Economic Commission for Latin America and the Caribbean</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2005</dc:date>
+        <dc:description>Citation Key: unRegionalCommissionFixture2005</dc:description>
+        <dc:title>The Millennium Development Goals: A Latin American and Caribbean Perspective</dc:title>
+        <z:citationKey>unRegionalCommissionFixture2005</z:citationKey>
+    </bib:Book>
+    <bib:Book rdf:about="#item_11682">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                        <vcard:locality>Basingstoke, United Kingdom</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Palgrave Macmillan</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>United Nations Development Programme</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2006</dc:date>
+        <dc:description>Citation Key: unProgrammeExternalFixture2006</dc:description>
+        <dc:title>Human Development Report 2006: Beyond Scarcity - Power, Poverty and the Global Water Crisis</dc:title>
+        <z:citationKey>unProgrammeExternalFixture2006</z:citationKey>
+    </bib:Book>
+    <rdf:Description rdf:about="https://example.org/undp-gdi-dashboard-document">
+        <z:itemType>document</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>United Nations Development Programme</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://example.org/undp-gdi-dashboard-document</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2023-11</dc:date>
+        <dc:description>Citation Key: webDocumentIssuedUrlFixture2023</dc:description>
+        <dcterms:dateSubmitted>2026-02-10</dcterms:dateSubmitted>
+        <dc:title>Global development indicators dashboard (document type control)</dc:title>
+        <z:citationKey>webDocumentIssuedUrlFixture2023</z:citationKey>
+    </rdf:Description>
+    <bib:Document rdf:about="https://example.org/undp-gdi-dashboard-webpage">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>United Nations Development Programme</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://example.org/undp-gdi-dashboard-webpage</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2023-11</dc:date>
+        <dc:description>Citation Key: webPageIssuedUrlFixture2023</dc:description>
+        <dcterms:dateSubmitted>2026-02-10</dcterms:dateSubmitted>
+        <dc:title>Global development indicators dashboard (webpage type control)</dc:title>
+        <z:citationKey>webPageIssuedUrlFixture2023</z:citationKey>
+    </bib:Document>
+    <bib:Document rdf:about="https://example.org/un-climate-methodology">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://example.org/un-climate-methodology</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2024-05</dc:date>
+        <dc:description>Citation Key: unNoAuthorWebShortTitleFixture2024</dc:description>
+        <dcterms:dateSubmitted>2026-02-10</dcterms:dateSubmitted>
+        <dc:title>The UN Climate Data Portal methodology page</dc:title>
+        <z:shortTitle>UN Climate Data Portal</z:shortTitle>
+        <z:citationKey>unNoAuthorWebShortTitleFixture2024</z:citationKey>
+    </bib:Document>
+    <bib:Book rdf:about="#item_11686">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>United Nations</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2024</dc:date>
+        <dc:description>Citation Key: unSameYearAFixture2024</dc:description>
+        <dc:title>World Social Situation 2024</dc:title>
+        <z:citationKey>unSameYearAFixture2024</z:citationKey>
+    </bib:Book>
+    <bib:Book rdf:about="#item_11687">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>United Nations</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2024</dc:date>
+        <dc:description>Citation Key: unSameYearBFixture2024</dc:description>
+        <dc:title>World Population Prospects 2024: Online edition</dc:title>
+        <z:citationKey>unSameYearBFixture2024</z:citationKey>
+    </bib:Book>
+    <bib:Book rdf:about="#item_11688">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>United Nations Conference on Trade and Development</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2005</dc:date>
+        <dc:description>Type: United Nations publication
+Citation Key: unctadUNPublication2005</dc:description>
+        <dc:title>Trade and Development Report 2005: New Features of Global Interdependence</dc:title>
+        <z:citationKey>unctadUNPublication2005</z:citationKey>
+    </bib:Book>
+    <bib:Article rdf:about="#item_11689">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
             <bib:Journal>
@@ -81,28 +1767,29 @@
             </rdf:Seq>
         </bib:authors>
         <dc:date>2005</dc:date>
-        <z:type>United Nations publication</z:type>
-        <dc:description>Citation Key: bovenkerkAbouChakra2005</dc:description>
+        <dc:description>Type: United Nations publication
+Citation Key: bovenkerkUNPublicationArticle2005</dc:description>
         <dc:title>Terrorism and organized crime</dc:title>
-        <z:citationKey>bovenkerkAbouChakra2005</z:citationKey>
+        <z:citationKey>bovenkerkUNPublicationArticle2005</z:citationKey>
     </bib:Article>
-    <bib:Document rdf:about="#case_ec_website_2017">
-        <z:itemType>webpage</z:itemType>
+    <bib:Report rdf:about="#item_11690">
+        <z:itemType>report</z:itemType>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
                     <foaf:Person>
-                       <foaf:surname>European Commission</foaf:surname>
+                       <foaf:surname>United Nations</foaf:surname>
                     </foaf:Person>
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
-        <dc:date>2017-11-09</dc:date>
-        <dc:description>Citation Key: europeanCommissionWebsite2017</dc:description>
-        <dc:title>Education and training in Europe: inequality remains a challenge</dc:title>
-        <z:citationKey>europeanCommissionWebsite2017</z:citationKey>
-    </bib:Document>
-    <bib:ConferenceProceedings rdf:about="#case_gurria_2007">
+        <dc:date>2012</dc:date>
+        <dc:description>Citation Key: unConfCorrigendum2012</dc:description>
+        <prism:number>A/CONF.216/16 and A/CONF.216/16/Corr.1</prism:number>
+        <dc:title>Report of the United Nations Conference on Sustainable Development, Rio de Janeiro, Brazil, 20-22 June 2012</dc:title>
+        <z:citationKey>unConfCorrigendum2012</z:citationKey>
+    </bib:Report>
+    <bib:ConferenceProceedings rdf:about="#item_11691">
         <z:itemType>presentation</z:itemType>
         <dc:publisher>
             <foaf:Organization>
@@ -117,88 +1804,20 @@
             <rdf:Seq>
                 <rdf:li>
                     <foaf:Person>
-                        <foaf:surname>Gurria</foaf:surname>
+                        <foaf:surname>Gurría</foaf:surname>
                         <foaf:givenName>Angel</foaf:givenName>
                     </foaf:Person>
                 </rdf:li>
             </rdf:Seq>
         </z:presenters>
         <dc:date>2007-05-14</dc:date>
+        <dc:description>Presenters: _:n248
+Citation Key: publicStatementGurria2007</dc:description>
         <z:meetingName>OECD Forum 2007</z:meetingName>
-        <dc:description>Citation Key: gurriaStatement2007</dc:description>
         <dc:title>Water: how to manage a vital resource</dc:title>
-        <z:citationKey>gurriaStatement2007</z:citationKey>
+        <z:citationKey>publicStatementGurria2007</z:citationKey>
     </bib:ConferenceProceedings>
-    <bib:Article rdf:about="#case_husseini_2007">
-        <z:itemType>newspaperArticle</z:itemType>
-        <dcterms:isPartOf>
-           <bib:Newspaper><dc:title>Jordan Times</dc:title></bib:Newspaper>
-        </dcterms:isPartOf>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Husseini</foaf:surname>
-                        <foaf:givenName>Rana</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dc:date>2007-05-09</dc:date>
-        <dc:description>Citation Key: husseini2007</dc:description>
-        <dc:title>Women leaders attempt to bridge East-West cultural divide</dc:title>
-        <z:citationKey>husseini2007</z:citationKey>
-    </bib:Article>
-    <bib:BookSection rdf:about="#case_rodrik_2005">
-        <z:itemType>bookSection</z:itemType>
-        <dcterms:isPartOf>
-            <bib:Book>
-                <dc:title>Handbook of Economic Growth</dc:title>
-            </bib:Book>
-        </dcterms:isPartOf>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>Amsterdam</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>North-Holland</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Rodrik</foaf:surname>
-                        <foaf:givenName>Dani</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <bib:editors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Aghion</foaf:surname>
-                        <foaf:givenName>Philippe</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Durlauf</foaf:surname>
-                        <foaf:givenName>Steven</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:editors>
-        <prism:volume>1 A</prism:volume>
-        <dc:date>2005</dc:date>
-        <dc:description>Citation Key: rodrikGrowthStrategies2005</dc:description>
-        <dc:title>Growth strategies</dc:title>
-        <z:citationKey>rodrikGrowthStrategies2005</z:citationKey>
-    </bib:BookSection>
-    <bib:ConferenceProceedings rdf:about="#case_salagaev_2002">
+    <bib:ConferenceProceedings rdf:about="#item_11692">
         <z:itemType>presentation</z:itemType>
         <dc:publisher>
             <foaf:Organization>
@@ -220,58 +1839,122 @@
             </rdf:Seq>
         </z:presenters>
         <dc:date>2002-10</dc:date>
+        <dc:description>Presenters: _:n252
+Citation Key: unpublishedPaperSalagaev2002</dc:description>
         <z:meetingName>Expert Group Meeting on Global Priorities for Youth</z:meetingName>
-        <dc:description>Citation Key: salagaev2002</dc:description>
         <dc:title>Juvenile delinquency</dc:title>
-        <z:citationKey>salagaev2002</z:citationKey>
+        <z:citationKey>unpublishedPaperSalagaev2002</z:citationKey>
     </bib:ConferenceProceedings>
-    <bib:Report rdf:about="#case_straub_2008">
-        <z:itemType>report</z:itemType>
-        <dc:publisher>
-            <foaf:Organization>
-                <vcard:adr>
-                    <vcard:Address>
-                       <vcard:locality>Washington, D.C.</vcard:locality>
-                    </vcard:Address>
-                </vcard:adr>
-                <foaf:name>World Bank</foaf:name>
-            </foaf:Organization>
-        </dc:publisher>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                        <foaf:surname>Straub</foaf:surname>
-                        <foaf:givenName>Stephane</foaf:givenName>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dc:date>2008</dc:date>
-        <z:type>Policy Research Working Paper</z:type>
-        <prism:number>4460</prism:number>
-        <dc:description>Citation Key: straub2008</dc:description>
-        <dc:title>Infrastructure and growth in developing countries: recent advances and research challenges</dc:title>
-        <z:citationKey>straub2008</z:citationKey>
-    </bib:Report>
-    <bib:Book rdf:about="#case_un_sales_2002">
+    <bib:Book rdf:about="#item_11693">
         <z:itemType>book</z:itemType>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
                     <foaf:Person>
-                       <foaf:surname>United Nations</foaf:surname>
+                        <foaf:surname>Brooks</foaf:surname>
+                        <foaf:givenName>Julia</foaf:givenName>
                     </foaf:Person>
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
         <dc:date>2002</dc:date>
-        <dc:coverage>E.02.II.A.7</dc:coverage>
-        <dc:description>Citation Key: unSalesNo2002</dc:description>
-        <dc:title>Report of the International Conference on Financing for Development, Monterrey, Mexico, 18-22 March 2002</dc:title>
-        <z:citationKey>unSalesNo2002</z:citationKey>
+        <dc:description>Citation Key: brooksSolo2002</dc:description>
+        <dc:title>Growth strategies for inclusion</dc:title>
+        <z:citationKey>brooksSolo2002</z:citationKey>
     </bib:Book>
-    <bib:Book rdf:about="#case_un_2005_a">
+    <bib:Book rdf:about="#item_11694">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brooks</foaf:surname>
+                        <foaf:givenName>Julia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2007</dc:date>
+        <dc:description>Citation Key: brooksSolo2007</dc:description>
+        <dc:title>One economics, many recipes</dc:title>
+        <z:citationKey>brooksSolo2007</z:citationKey>
+    </bib:Book>
+    <bib:Book rdf:about="#item_11695">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brooks</foaf:surname>
+                        <foaf:givenName>Julia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sandoval</foaf:surname>
+                        <foaf:givenName>Marta</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>1998</dc:date>
+        <dc:description>Citation Key: brooksSandoval1998</dc:description>
+        <dc:title>Community social contracts</dc:title>
+        <z:citationKey>brooksSandoval1998</z:citationKey>
+    </bib:Book>
+    <bib:Book rdf:about="#item_11696">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brooks</foaf:surname>
+                        <foaf:givenName>Julia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sandoval</foaf:surname>
+                        <foaf:givenName>Marta</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2001</dc:date>
+        <dc:description>Citation Key: brooksSandoval2001</dc:description>
+        <dc:title>Community social contracts revisited</dc:title>
+        <z:citationKey>brooksSandoval2001</z:citationKey>
+    </bib:Book>
+    <bib:Book rdf:about="#item_11697">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brooks</foaf:surname>
+                        <foaf:givenName>Julia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Duarte</foaf:surname>
+                        <foaf:givenName>Richard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Heller</foaf:surname>
+                        <foaf:givenName>Susan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2004</dc:date>
+        <dc:description>Citation Key: brooksDuarteHeller2004</dc:description>
+        <dc:title>Regional transformation pathways</dc:title>
+        <z:citationKey>brooksDuarteHeller2004</z:citationKey>
+    </bib:Book>
+    <bib:Book rdf:about="#item_11698">
         <z:itemType>book</z:itemType>
         <bib:authors>
             <rdf:Seq>
@@ -282,129 +1965,64 @@
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
-        <dc:date>2005</dc:date>
-        <dc:description>Citation Key: un2005a</dc:description>
-        <dc:title>Report on the World Social Situation 2005: The Inequality Predicament</dc:title>
-        <z:citationKey>un2005a</z:citationKey>
+        <dc:date>2019</dc:date>
+        <dc:description>Type: United Nations publication
+Citation Key: unYearbookILC2013</dc:description>
+        <dc:title>Yearbook of the International Law Commission, 2013, vol. II, Part One</dc:title>
+        <z:citationKey>unYearbookILC2013</z:citationKey>
     </bib:Book>
-    <bib:Book rdf:about="#case_un_2005_b">
+    <bib:Article rdf:about="#item_11699">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>22</prism:volume>
+                <prism:number>1</prism:number>
+                <dc:title>Oxford Review of Economic Policy</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barr</foaf:surname>
+                        <foaf:givenName>Nicholas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Diamond</foaf:surname>
+                        <foaf:givenName>Peter</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:pages>15-39</bib:pages>
+        <dc:date>Spring 2006</dc:date>
+        <dc:description>Citation Key: barrDiamondSeasonIssue2006</dc:description>
+        <dc:title>The economics of pensions</dc:title>
+        <z:citationKey>barrDiamondSeasonIssue2006</z:citationKey>
+    </bib:Article>
+    <bib:Article rdf:about="#item_11700">
+        <z:itemType>newspaperArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Newspaper><dc:title>Daily Monitor</dc:title></bib:Newspaper>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Kampala</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <dc:date>August 15 2002</dc:date>
+        <dc:description>Citation Key: newspaperNoAuthorCity2002</dc:description>
+        <dc:title>Aviation MD allowed risky planes to fly to Congo</dc:title>
+        <z:citationKey>newspaperNoAuthorCity2002</z:citationKey>
+    </bib:Article>
+    <bib:Book rdf:about="#item_11701">
         <z:itemType>book</z:itemType>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                       <foaf:surname>United Nations</foaf:surname>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dc:date>2005</dc:date>
-        <dc:description>Citation Key: un2005b</dc:description>
-        <dc:title>World Economic and Social Survey 2005: Financing for Development</dc:title>
-        <z:citationKey>un2005b</z:citationKey>
-    </bib:Book>
-    <bib:Report rdf:about="#case_un_corr_2012">
-        <z:itemType>report</z:itemType>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                       <foaf:surname>United Nations</foaf:surname>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dc:date>2012</dc:date>
-        <prism:number>A/CONF.216/16 and A/CONF.216/16/Corr.1</prism:number>
-        <dc:description>Citation Key: unCorr2012</dc:description>
-        <dc:title>Report of the United Nations Conference on Sustainable Development, Rio de Janeiro, Brazil, 20-22 June 2012</dc:title>
-        <z:citationKey>unCorr2012</z:citationKey>
-    </bib:Report>
-    <bib:Document rdf:about="http://unstats.un.org/unsd/snaama/Introduction.asp">
-        <z:itemType>webpage</z:itemType>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                       <foaf:surname>United Nations</foaf:surname>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dc:identifier>
-            <dcterms:URI>
-                <rdf:value>http://unstats.un.org/unsd/snaama/Introduction.asp</rdf:value>
-            </dcterms:URI>
-        </dc:identifier>
-        <dc:date>2017</dc:date>
-        <dcterms:dateSubmitted>2018-01-10</dcterms:dateSubmitted>
-        <z:type>online database</z:type>
-        <dc:description>Citation Key: unDatabase2017</dc:description>
-        <dc:title>National accounts main aggregates database</dc:title>
-        <z:citationKey>unDatabase2017</z:citationKey>
-    </bib:Document>
-    <bib:Report rdf:about="#case_un_symbol_2018">
-        <z:itemType>report</z:itemType>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                       <foaf:surname>United Nations</foaf:surname>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dc:date>2018</dc:date>
-        <prism:number>A/CONF.231/7</prism:number>
-        <dc:description>Citation Key: unSymbol2018</dc:description>
-        <dc:title>Report of the Intergovernmental Conference to Adopt the Global Compact for Safe, Orderly and Regular Migration, Marrakech, Morocco, 10 and 11 December 2018</dc:title>
-        <z:citationKey>unSymbol2018</z:citationKey>
-    </bib:Report>
-    <bib:Report rdf:about="#case_un_sc_2022">
-        <z:itemType>report</z:itemType>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                       <foaf:surname>United Nations, Security Council</foaf:surname>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dc:date>2022-12-12</dc:date>
-        <prism:number>S/2022/999</prism:number>
-        <dc:description>Citation Key: unSecurityCouncil2022</dc:description>
-        <dc:title>Final report of the Group of Experts on the Democratic Republic of the Congo</dc:title>
-        <z:citationKey>unSecurityCouncil2022</z:citationKey>
-    </bib:Report>
-    <bib:Book rdf:about="#case_unctad_2005">
-        <z:itemType>book</z:itemType>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                       <foaf:surname>United Nations Conference on Trade and Development</foaf:surname>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
-        <dc:date>2005</dc:date>
-        <z:type>United Nations publication</z:type>
-        <dc:description>Citation Key: unctad2005</dc:description>
-        <dc:title>Trade and Development Report 2005: New Features of Global Interdependence</dc:title>
-        <z:citationKey>unctad2005</z:citationKey>
-    </bib:Book>
-    <bib:Book rdf:about="#case_unesco_2000">
-        <z:itemType>book</z:itemType>
-        <bib:authors>
-            <rdf:Seq>
-                <rdf:li>
-                    <foaf:Person>
-                       <foaf:surname>United Nations Educational, Scientific and Cultural Organization</foaf:surname>
-                    </foaf:Person>
-                </rdf:li>
-            </rdf:Seq>
-        </bib:authors>
         <dc:publisher>
             <foaf:Organization>
                 <vcard:adr>
@@ -414,9 +2032,210 @@
                 </vcard:adr>
             </foaf:Organization>
         </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>United Nations Educational, Scientific and Cultural Organization</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
         <dc:date>2000</dc:date>
-        <dc:description>Citation Key: unesco2000</dc:description>
-        <dc:title>Final Report of the World Education Forum, Dakar, Senegal, 26-28 April 2000</dc:title>
-        <z:citationKey>unesco2000</z:citationKey>
+        <dc:description>Citation Key: unescoOrgAuthorPublisher2000</dc:description>
+        <dc:title>Final Report of the World Education Forum, Dakar, Senegal, 26–28 April 2000</dc:title>
+        <z:citationKey>unescoOrgAuthorPublisher2000</z:citationKey>
     </bib:Book>
+    <bib:Report rdf:about="https://www.ilo.org/publications/buffer-or-bottleneck-employment-exposure-generative-ai-and-digital-divide">
+        <z:itemType>report</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Geneva</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>ILO</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gmyrek</foaf:surname>
+                        <foaf:givenName>Pawel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Winkler</foaf:surname>
+                        <foaf:givenName>Hernan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Garganta</foaf:surname>
+                        <foaf:givenName>Santiago</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ilo.org/publications/buffer-or-bottleneck-employment-exposure-generative-ai-and-digital-divide</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2024-07-19T15:41:02+0000</dc:date>
+        <dcterms:dateSubmitted>2026-01-18 18:10:34</dcterms:dateSubmitted>
+        <z:type>Working Paper</z:type>
+        <z:language>en</z:language>
+        <dcterms:abstract>In this new paper from the International Labour Organization and the World Bank Group, researchers found that Generative AI could have transformative effects on jobs and livelihoods in Latin America and the Caribbean. Nonetheless, gaps in digital infrastructure and other inequalities could hinder the potential impacts of Generative AI in the region.</dcterms:abstract>
+        <prism:number>121</prism:number>
+        <dc:title>Buffer or bottleneck? Employment exposure to generative AI and the digital divide in Latin America</dc:title>
+        <z:shortTitle>Buffer or bottleneck?</z:shortTitle>
+    </bib:Report>
+    <bib:Report rdf:about="https://example.org/ilo-report-121">
+        <z:itemType>report</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Geneva</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>International Labour Organization</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gmyrek</foaf:surname>
+                        <foaf:givenName>Pawel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Winkler</foaf:surname>
+                        <foaf:givenName>Hernan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Garganta</foaf:surname>
+                        <foaf:givenName>Santiago</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://example.org/ilo-report-121</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2024-07-19</dc:date>
+        <dc:description>Citation Key: authorReportNumericSingleLocator2024</dc:description>
+        <dcterms:dateSubmitted>2026-02-11</dcterms:dateSubmitted>
+        <prism:number>121</prism:number>
+        <dc:title>Buffer or bottleneck? Employment exposure to generative AI and the digital divide in Latin America</dc:title>
+        <z:citationKey>authorReportNumericSingleLocator2024</z:citationKey>
+    </bib:Report>
+    <bib:Report rdf:about="https://example.org/noauthor-report-121">
+        <z:itemType>report</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Geneva</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>International Labour Organization</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://example.org/noauthor-report-121</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2024-07-19</dc:date>
+        <dc:description>Citation Key: noauthorReportNumericPublisher2024</dc:description>
+        <dcterms:dateSubmitted>2026-02-11</dcterms:dateSubmitted>
+        <prism:number>121</prism:number>
+        <dc:title>Employment exposure to generative AI in emerging markets</dc:title>
+        <z:citationKey>noauthorReportNumericPublisher2024</z:citationKey>
+    </bib:Report>
+    <bib:Report rdf:about="https://example.org/noauthor-report-symbol">
+        <z:itemType>report</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>United Nations</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://example.org/noauthor-report-symbol</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2024-09-10</dc:date>
+        <dc:description>Citation Key: noauthorReportSymbolPublisher2024</dc:description>
+        <dcterms:dateSubmitted>2026-02-11</dcterms:dateSubmitted>
+        <prism:number>A/CONF.999/1</prism:number>
+        <dc:title>Progress report on social development implementation</dc:title>
+        <z:citationKey>noauthorReportSymbolPublisher2024</z:citationKey>
+    </bib:Report>
+    <bib:Report rdf:about="https://example.org/noauthor-report-no-title">
+        <z:itemType>report</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Geneva</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>International Labour Organization</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://example.org/noauthor-report-no-title</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2024-07-19</dc:date>
+        <dc:description>Citation Key: noauthorReportNoTitlePublisher2024</dc:description>
+        <dcterms:dateSubmitted>2026-02-13</dcterms:dateSubmitted>
+        <prism:number>122</prism:number>
+        <z:citationKey>noauthorReportNoTitlePublisher2024</z:citationKey>
+    </bib:Report>
+    <rdf:Description rdf:about="https://example.org/document-genre-issued">
+        <z:itemType>document</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://example.org/document-genre-issued</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2024-10</dc:date>
+        <dc:description>Citation Key: documentGenreIssuedWithAccessDate2024
+Type: Methodological note</dc:description>
+        <dcterms:dateSubmitted>2026-02-11</dcterms:dateSubmitted>
+        <dc:title>Digital inclusion dashboard methodological note</dc:title>
+        <z:citationKey>documentGenreIssuedWithAccessDate2024</z:citationKey>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://example.org/document-no-genre-issued">
+        <z:itemType>document</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://example.org/document-no-genre-issued</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2024-10</dc:date>
+        <dc:description>Citation Key: documentNoGenreIssued2024</dc:description>
+        <dcterms:dateSubmitted>2026-02-11</dcterms:dateSubmitted>
+        <dc:title>Digital inclusion dashboard metadata note</dc:title>
+        <z:citationKey>documentNoGenreIssued2024</z:citationKey>
+    </rdf:Description>
 </rdf:RDF>
