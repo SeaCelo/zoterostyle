@@ -20,10 +20,10 @@
   <locale>
     <terms>
       <term name="no date" form="short">n.d.</term>
-      <term name="accessed">accessed on</term>
+      <term name="accessed">Accessed on</term>
       <term name="et-al">and others</term>
       <term name="page" form="short">
-        <single>pg.</single>
+        <single>p.</single>
         <multiple>pp.</multiple>
       </term>
     </terms>
@@ -92,6 +92,22 @@
               </substitute>
             </names>
           </if>
+          <else-if type="report">
+            <choose>
+              <if variable="title">
+                <text variable="title"/>
+              </if>
+              <else-if variable="publisher">
+                <text variable="publisher"/>
+              </else-if>
+              <else-if variable="container-title">
+                <text variable="container-title"/>
+              </else-if>
+              <else>
+                <text variable="collection-title"/>
+              </else>
+            </choose>
+          </else-if>
           <else-if variable="collection-title">
             <text variable="collection-title" font-style="italic"/>
           </else-if>
@@ -156,15 +172,13 @@
   <macro name="access-date">
     <choose>
       <if variable="accessed">
-        <group prefix=" " delimiter=" ">
-          <group prefix="(" suffix=")">
-            <text term="accessed" suffix=" "/>
-            <date variable="accessed">
-              <date-part name="day" suffix=" "/>
-              <date-part name="month" suffix=" "/>
-              <date-part name="year"/>
-            </date>
-          </group>
+        <group prefix=". " delimiter=" ">
+          <text term="accessed" suffix=" "/>
+          <date variable="accessed">
+            <date-part name="day" suffix=" "/>
+            <date-part name="month" suffix=" "/>
+            <date-part name="year"/>
+          </date>
         </group>
       </if>
     </choose>
@@ -264,7 +278,7 @@
           </else>
         </choose>
       </else-if>
-      <else-if type="bill book chapter graphic legal_case legislation motion_picture paper-conference report song" match="any">
+      <else-if type="bill book chapter graphic legal_case legislation motion_picture paper-conference song" match="any">
         <choose>
           <if variable="collection-title" match="none">
             <group prefix=" (" suffix=")" delimiter=", ">
@@ -398,7 +412,7 @@
           <group delimiter=", " prefix=". ">
             <text variable="collection-title" font-style="italic"/>
             <choose>
-              <if variable="number" is-numeric="number">
+              <if variable="number">
                 <text macro="locators"/>
               </if>
             </choose>
@@ -412,11 +426,6 @@
             </group>
           </group>
           <text macro="report-date" prefix=", "/>
-          <choose>
-            <if variable="number">
-              <text macro="locators" prefix=". "/>
-            </if>
-          </choose>
         </if>
         <else-if type="bill book graphic legal_case legislation motion_picture report song" match="any">
           <choose>

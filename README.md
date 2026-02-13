@@ -33,4 +33,6 @@ How to run a style check:
 | Author-publisher deduplication for organization names | CSL does not provide a reliable, low-risk way to suppress publisher text only when it duplicates institutional author strings across varied metadata patterns. |
 | Initial-article normalization in sorting (for example ignoring leading "The") | Zotero/CSL sorting does not provide a robust style-level mechanism to normalize leading articles without side effects. |
 | Conditional URL omission for easily discoverable web sources | The UN guide treats this as editorial judgment; CSL has no context signal for "easily located through search." |
+| Some `document` records with `Type` stored only in `Extra` may not print URL/access text | In Zotero RDF, `Type: ...` in `Extra` is not always mapped to CSL `genre`/type fields consistently, so one edge-case document can bypass expected `Available at ...` rendering. |
 | Automatic inference of the phrase "United Nations publication" | Reliable detection cannot be derived deterministically from author/publisher metadata alone, so this remains a manual/data-driven decision. |
+| Masthead document symbol/date ordering | UN masthead examples place date before symbol (for example `... 12 December. S/...`), but applying that reliably only to masthead-like reports is not deterministic with current CSL/Zotero metadata signals. |

@@ -16,8 +16,9 @@ All notable changes to this citation style should be documented in this file.
 - Added `title-short` fallback in in-text citations when no author is present.
 - Improved no-author bibliography fallback for web-like records (`webpage`, `software`, `dataset`, `document`) to be title-led.
 - Updated web/database access formatting to `Available at ...` using CSL term rendering (`term="available at"`) with conditional access-date output.
+- Aligned access-date rendering for author-date references to sentence style (`Accessed on ...`) instead of parenthetical lowercase form.
 - Added page rendering to periodical references where pages are available.
-- Replaced hardcoded page affixes with label-based rendering and locale overrides so short page terms output as `pg.` and `pp.`.
+- Replaced hardcoded page affixes with label-based rendering and locale overrides so short page terms output as `p.` and `pp.`.
 - Fixed no-author title-duplication edge cases in bibliography fallback logic:
   - prevented duplicate title output for no-author `webpage`/`software`/`dataset`/`document` records
   - prevented duplicate title output for no-author `report` records
@@ -30,6 +31,14 @@ All notable changes to this citation style should be documented in this file.
 - Refined report-number behavior:
   - numeric report numbers render with `No.`
   - symbolic UN-style report numbers (for example `A/CONF...`, `S/...`) are preserved without forced `No.`
+- Fixed duplicate report-number output in bibliography for `report` items (number/locator now renders once).
+- Aligned no-author `report` handling with UN no-author rules:
+  - no-author reports now sort/lead by title when title is present
+  - publisher fallback is retained only when report title is missing
+  - additional fallback path uses `container-title` then `collection-title` when title/publisher are absent
+  - report-body title rendering is limited to creator-present cases to avoid duplicate title output
+- Minor report locator cleanup:
+  - removed redundant `report` type from the non-report locator branch to avoid overlap with report-specific logic
 - Added report-specific date output (`report-date`) and improved report punctuation order.
 
 ### UN-Specific Alignment Notes
